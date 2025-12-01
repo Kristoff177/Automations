@@ -1,6 +1,7 @@
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 import {
   Brain,
   Workflow,
@@ -96,10 +97,12 @@ export function ServicesSection() {
               ))}
             </div>
 
-            <Button variant="ghost" className="mt-4 text-[#D4AF37] hover:text-[#FFEB3B] hover:bg-[#D4AF37]/10 w-full group">
-              Learn More
-              <ChevronRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </Button>
+            <Link href="/case-studies" className="block">
+              <Button variant="ghost" className="mt-4 text-[#D4AF37] hover:text-[#FFEB3B] hover:bg-[#D4AF37]/10 w-full group">
+                Learn More
+                <ChevronRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </Link>
           </Card>
         ))}
       </div>

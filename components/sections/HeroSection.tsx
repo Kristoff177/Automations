@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Sparkles, Rocket } from 'lucide-react';
 import { ThreeDCube } from '@/components/ui/ThreeDCube';
+import Link from 'next/link';
 
 interface HeroSectionProps {
   mounted: boolean;
@@ -34,9 +35,11 @@ export function HeroSection({ mounted }: HeroSectionProps) {
               Start Your Project
               <Rocket className="ml-2 w-5 h-5" />
             </Button>
-            <Button size="lg" variant="outline" className="border-[#D4AF37]/50 text-[#D4AF37] hover:bg-[#D4AF37]/10 text-lg px-8">
-              View Case Studies
-            </Button>
+            <Link href="/case-studies">
+              <Button size="lg" variant="outline" className="border-[#D4AF37]/50 text-[#D4AF37] hover:bg-[#D4AF37]/10 text-lg px-8">
+                View Case Studies
+              </Button>
+            </Link>
           </div>
 
           <div className="flex items-center space-x-8 pt-4">
