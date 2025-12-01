@@ -94,27 +94,13 @@ export default function CaseStudies() {
 
         <section className="container mx-auto px-6 pb-24">
           <div className="mb-12 max-w-2xl mx-auto">
-            <Card className="group bg-gradient-to-br from-[#D4AF37]/20 to-[#FFEB3B]/20 border-[#D4AF37]/50 hover:border-[#D4AF37] transition-all duration-300 p-8">
+            <Card className="group bg-white/5 border-white/10 hover:border-[#D4AF37]/50 transition-all duration-300 p-8">
               <div className="text-center space-y-4">
                 <h2 className="text-3xl md:text-4xl font-bold">
                   <span className="bg-gradient-to-r from-[#D4AF37] to-[#FFEB3B] bg-clip-text text-transparent">
-                    Become the First Case Study
+                    Become the first case study and get your business featured here. Share your success, improve SEO with a link, and let others see that you are at the forefront of innovation.
                   </span>
                 </h2>
-                <div className="space-y-3 text-white/80">
-                  <p className="flex items-start">
-                    <span className="w-1.5 h-1.5 bg-[#D4AF37] rounded-full mr-3 mt-1.5 flex-shrink-0"></span>
-                    <span>Shows potential clients that your service is already set up for results.</span>
-                  </p>
-                  <p className="flex items-start">
-                    <span className="w-1.5 h-1.5 bg-[#D4AF37] rounded-full mr-3 mt-1.5 flex-shrink-0"></span>
-                    <span>Offers SEO benefit because linking their site on my site will give their site exposure.</span>
-                  </p>
-                  <p className="flex items-start">
-                    <span className="w-1.5 h-1.5 bg-[#D4AF37] rounded-full mr-3 mt-1.5 flex-shrink-0"></span>
-                    <span>Creates anticipation for future real case studies.</span>
-                  </p>
-                </div>
                 <Button className="bg-gradient-to-r from-[#D4AF37] to-[#FFEB3B] hover:from-[#FFEB3B] hover:to-[#D4AF37] text-[#0A0A0A] font-semibold mt-4">
                   Get Your Case Study
                 </Button>
